@@ -9,7 +9,7 @@ app.use(express.static("/Portfolio"))
 
 
 app.get('*',(req,res)=>{
-    res.send("<h1 style ='text-allign:center'> 404 PAGE NOT FOUND <h1>")
+    res.send("<h1 style ='text-allign:center'> 404 PAGE NOT meef <h1>")
 }
 )
 
