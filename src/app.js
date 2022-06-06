@@ -2,10 +2,10 @@
 const path = require('path');
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT;
 
 
-app.use(express.static("/Users/toanhuynh/Desktop/my_personal_website/Portfolio"))
+app.use(express.static("/Portfolio"))
 
 
 app.get('*',(req,res)=>{
